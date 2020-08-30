@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c223b;
+    color: #fff;
+    font-family: 'Lora', serif;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.container {
+    background-color: #273349;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(12, 16, 31, 0.4);
+    padding: 100px;
+    margin: auto;
+    width: 1000px;
+}
+
+
+.header {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+table {
+    color: #e3e3e3;
+    padding: 10px;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align:left;
+}
+
+
+table tbody tr {
+    background-color: #1c223b;
+}
+
+
+.delete {
+    cursor: pointer;
+    background-color: #242c4c;
+    border: 0;
+    border-radius: 2px;
+    color: #909090;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
